@@ -1,0 +1,364 @@
+   @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+
+
+   .container {
+     max-width:1140px;
+    width:100%;
+    margin:auto;
+    padding:0 15px;
+   }
+
+   section {
+      padding: 0 16px;
+      width: 100%;
+      min-height: 100vh;
+      background-image: url(./CHIMPZ.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .flex-grow {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      width: 100%;
+   }
+
+   .w-100 {
+      width: 100%;
+      z-index: 10;
+   }
+
+   .social-icons {
+      display: flex;
+      height: 32px;
+      margin-left: 46px;
+      gap: 10px;
+
+   }
+
+   .social-link {
+      transition: transform 0.3s ease;
+   }
+
+   .social-link:hover {
+      transform: translateY(-2px);
+   }
+
+   nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+      max-width: 1140px;
+   }
+
+   a {
+      font-family: Fira Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      gap: 46px;
+      text-decoration: none;
+   }
+
+   .menu {
+      display: flex;
+      gap: 46px;
+   }
+
+   .mobile-menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .btn {
+      background-color: rgba(255, 194, 10, 1);
+      margin-left: 46px;
+      width: 151px;
+      height: 51px;
+      border-radius: 36px;
+      border: none;
+      font-family: Dela Gothic One;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+
+   }
+
+   .btn:hover {
+      background-color: rgba(255, 194, 10, 0.8);
+      cursor: pointer;
+   }
+
+
+   .heading1 {
+      font-family: Roboto;
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 2px 2px 4px white;
+
+   }
+
+   .card-one {
+      padding-left: 8px;
+      width: 100%;
+      max-width: 631px;
+      height: auto;
+      width: 100%;
+      backdrop-filter: blur(6px);
+      background: transparent;
+      text-shadow: 2px 2px 4px white;
+   }
+
+   .span {
+      color: rgba(59, 148, 94, 1);
+      text-shadow: 2px 2px 4px green;
+   }
+
+   .nav-link {
+      color: #BDBDBD
+   }
+
+   .nav-link:hover {
+      color: rgba(255, 255, 255, 1);
+   }
+
+   .heading2 {
+      font-family: "Exo 2", sans-serif;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 64px;
+      line-height: 74px;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      text-shadow: 2px 2px 4px white;
+   }
+
+
+   .para {
+      font-family: Fira Sans;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+      max-width: 640px;
+      width: 100%;
+      margin-top: 24px;
+      text-shadow: 2px 2px 4px white;
+
+
+   }
+
+   .card2 {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .card2 img {
+      position: relative;
+      max-width: 585px;
+      width: 100%;
+      height: auto;
+      top: 0;
+      left: 0;
+
+
+   }
+
+   .main-card {
+      display: flex;
+      align-items: center;
+   }
+
+   .menu-button {
+      display: block;
+      width: 30px;
+      height: 3px;
+      background-color: white;
+      margin: 5px 0;
+   }
+
+   .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+   }
+
+   .menu-checkbox {
+      position: relative;
+      z-index: 2;
+   }
+
+   .menu-button {
+      width: 24px;
+      height: 4px;
+      background-color: black;
+      border-radius: 4px;
+      display: flex;
+   }
+
+   .input-checkbox-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+      display: none;
+   }
+
+   .top-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      z-index: 1;
+      background: linear-gradient(180deg, #000000 36.19%, rgba(0, 0, 0, 0) 100%);
+
+   }
+   .bottom-layer {
+      position: absolute;
+      bottom: 0;
+      transform: rotate(180deg);
+      left: 0;
+      width: 100%;
+      height: 100px;
+      z-index: 1;
+      background: linear-gradient(180deg, #000000 36.19%, rgba(0, 0, 0, 0) 100%);
+
+   }
+
+
+   @media (max-width:996px) {
+      .main-card {
+         display: flex;
+         flex-direction: column;
+      }
+
+      section {
+         min-height: 100vh;
+         height: auto;
+         padding: 40px 0;
+      }
+
+      nav {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         position: relative;
+
+      }
+
+      .input-checkbox-label {
+         display: flex;
+         flex-direction: column;
+         cursor: pointer;
+         z-index: 2;
+         padding-right: 25px;
+      }
+
+      .menu-button {
+         width: 28px;
+         height: 3px;
+         background: #fff;
+         border-radius: 10px;
+      }
+
+      .mobile-menu {
+         position: fixed;
+         top: 0;
+         left: -100%;
+         width: 50%;
+         height: 100vh;
+         background: #000;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 30px;
+         transition: .5s;
+         z-index: 1;
+      }
+
+      .menu {
+         display: flex;
+         flex-direction: column;
+         gap: 25px;
+         align-items: center;
+      }
+
+      .social-icons {
+         display: flex;
+         gap: 20px;
+         align-items: center;
+         text-align: center;
+         padding-right: 20px;
+      }
+
+      .menu-checkbox:checked~.mobile-menu {
+         left: 0;
+      }
+
+      .heading1 {
+         font-size: 30px;
+
+      }
+
+      .heading2 {
+         font-size: 30px;
+         line-height: 25px;
+      }
+
+      .para {
+         font-size: 20px;
+         line-height: 30px;
+      }
+
+      .btn {
+         margin-right: 20px;
+      }
+   }
+
+   @media (min-width:1080px) {
+      .main-card {
+         display: flex;
+         flex-direction: row;
+      }
+
+   }
+  
